@@ -1,0 +1,57 @@
+.nav-account {
+  background-color: #fff;
+  width: 100vw;
+  z-index: 1;
+  position: fixed;
+  color: #2f4f4f;
+}
+
+.nav-account .menu-account {
+  float: right;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-account .menu-account .dropdown-account {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.nav-account .menu-account span {
+  padding: 0px 8px 0pc 20px;
+  border-left: 1px solid #d0c7db;
+}
+
+.nav-account .menu-account .seta-usuario {
+  padding: 0px 5px;
+}
+
+.nav-account .menu-account .avatar {
+  background-color: #d0c7db;
+}
+
+@media screen and (max-width: 765px) {
+  .nav-account {
+    width: 100%;
+  }
+
+  .nav-account .menu-account {
+    float: none;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-account .menu-account .dropdown-account {
+    margin: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nav-account .menu-account {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,9 @@
+.botao-modal {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #43425d;
+}
